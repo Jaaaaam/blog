@@ -21,7 +21,7 @@
         <div class="container">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#">Gallery</a>
@@ -30,10 +30,10 @@
               <a href="#">Random</a>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Contact Me</a>
+              <a href="/blog">Add Blog</a>
             </li>
           </ul>
         </div>
@@ -43,8 +43,8 @@
     <div class="main-content">
       <div class="row">
         <div class="col-md-9">
-          <div class="posts">
-            
+          <div class="posts-container">
+            @yield('content')
           </div>
         </div>
         <div class="col-md-3">
