@@ -13,6 +13,10 @@
 
 Route::get('/', 'BlogController@index');
 Route::get('blog/{slug}', 'BlogController@show');
+Route::get('blog/{blog}/edit', 'BlogController@edit');
 Route::get('/blog', 'BlogController@create');
+
 Route::post('/blog', 'BlogController@store');
+Route::patch('/blog/{blog}', 'BlogController@update');
+Route::get('/blog/{blog}/delete', 'BlogController@destroy');
 
