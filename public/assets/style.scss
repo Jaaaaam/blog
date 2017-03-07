@@ -17,6 +17,9 @@ nav {
       margin-right: 40px;
       a {
         color: #000;
+        &:hover {
+          color: #00796b;
+        }
       }
     }
   }
@@ -31,8 +34,12 @@ nav {
   margin: auto;
 }
 
-.posts {
+.posts-container {
   border-top: 1px solid #9e9e9e;
+  border-bottom: 1px solid #9e9e9e;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
 }
 
 .widgets {
@@ -49,7 +56,31 @@ nav {
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid #b2dfdb;
   }
+}
+
+.posts {
+  h2 {
+    a{
+      color: #4db6ac;
+    }
+    
+  }
+}
+
+.post-body {
+  p {
+    display: block;
+    display: -webkit-box;
+    height: 101.2px;
+    margin: 0 auto;
+    font-size: 14px;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
 }
 
 footer {
