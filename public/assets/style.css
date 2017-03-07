@@ -25,6 +25,8 @@ nav {
   border-bottom: 1px solid #9e9e9e;
   padding-top: 10px;
   padding-bottom: 30px; }
+  .posts-container hr:last-child {
+    display: none; }
 
 .widgets {
   text-align: center; }

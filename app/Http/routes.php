@@ -20,3 +20,5 @@ Route::post('/blog', 'BlogController@store');
 Route::patch('/blog/{blog}', 'BlogController@update');
 Route::get('/blog/{blog}/delete', 'BlogController@destroy');
 
+Route::post('{blog}/comment', 'CommentController@store');
+
