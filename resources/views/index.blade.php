@@ -4,7 +4,7 @@
 
     @foreach($blogs as $blog)
       <div class="posts">
-        <h2><a href="">{{ $blog->title }}</a></h2>
+        <h2><a href="/blog/{{ $blog->slug }}">{{ $blog->title }}</a></h2>
         <i><p>In category <a href="">{{ $blog->category }}</a> posted on {{ date('F d, Y', strtotime($blog->published_at)) }}</p></i>
 
         <div class="post-body">

@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'BlogController@index');
+Route::get('blog/{slug}', 'BlogController@show');
+Route::get('/blog', 'BlogController@create');
+Route::post('/blog', 'BlogController@store');
+
