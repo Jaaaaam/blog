@@ -11,6 +11,8 @@
           <p class="truncate">{{ $blog->body }}</p>
         </div>
       </div>
+      <hr>
+
     @endforeach
   
 @stop
