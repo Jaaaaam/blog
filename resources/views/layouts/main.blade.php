@@ -21,7 +21,7 @@
         <div class="container">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#">Gallery</a>
@@ -33,7 +33,7 @@
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Add Blog</a>
+              <a href="/blog">Add Blog</a>
             </li>
           </ul>
         </div>

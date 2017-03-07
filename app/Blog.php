@@ -11,7 +11,8 @@ class Blog extends Model
         'body', 
         'category', 
         'slug', 
-        'published_at'];
+        'published_at'
+    ];
 
     public function comment()
     {
